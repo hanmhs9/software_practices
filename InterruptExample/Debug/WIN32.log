@@ -1,0 +1,31 @@
+﻿cl : Command line warning D9002: ignoring unknown option '/wc4574'
+  supporting_functions.c
+c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(143): warning C4777: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 2 has type 'uint32_t'
+  c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(143): note: consider using '%u' in the format string
+  c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(143): note: consider using '%Iu' in the format string
+  c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(143): note: consider using '%I32u' in the format string
+c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(165): warning C4777: 'printf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'TickType_t'
+  c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(165): note: consider using '%u' in the format string
+  c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(165): note: consider using '%Iu' in the format string
+  c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\supporting_functions\supporting_functions.c(165): note: consider using '%I32u' in the format string
+  Run-time-stats-utils.c
+  main_app.c
+c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\main_app.c(9): warning C4005: 'portINTERRUPT_YIELD': macro redefinition
+  c:\users\instructor\desktop\exercise files\freertos-source\portable\msvc-mingw\portmacro.h(136): note: see previous definition of 'portINTERRUPT_YIELD'
+c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\main_app.c(52): warning C4057: 'function': 'uint32_t (__cdecl *)(void)' differs in indirection to slightly different base types from 'unsigned long (__cdecl *)(void)'
+  tasks.c
+  queue.c
+  port.c
+  list.c
+  main.c
+  timers.c
+  stream_buffer.c
+  heap_5.c
+  event_groups.c
+  croutine.c
+  trcSnapshotRecorder.c
+  trcKernelPort.c
+  Generating Code...
+c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\main_app.c(56): warning C4716: 'main_app': must return a value
+c:\users\instructor\desktop\exercise files\ch08\08_02\interruptexample\main_app.c(42): warning C4716: 'prvProcessYieldInterrupt': must return a value
+  WIN32.vcxproj -> C:\Users\Instructor\Desktop\Exercise Files\Ch08\08_02\InterruptExample\.\Debug\InterruptExample.exe
